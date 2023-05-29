@@ -5,52 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <ul>
-            <li>Grandes ofertas en comederos</li>
-            <li>
-                <ul>
-                    <li>Español</li>
-                    <li>ARG$</li>
-                </ul>
-            </li>
-        </ul>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#"><img src="img/Logo.png" alt="logo pet shop"></a>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <a href=""><img src="img/pawprint 1.png" alt="">Categorías</a>
-                        </li>
-                        <li>
-                            <a href=""><img src="img/pawprint 1.png" alt="">Pets</a>
-                        </li>
-                        <li>
-                            <a href=""><img src="img/pawprint 1.png" alt="">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href=""><img src="img/pawprint 1.png" alt="">Contactanos</a>
-                        </li>
+        <section class="header-container-top">
+            <div class="container-top">
+                <div class="offerts">
+                    <span>Grandes ofertas en comederos</span>
+                </div>
+                <div class="links-menu-container config-options">
+                    <ul class="nav-links header-list">
+                        <li>Español<i class="fa-solid fa-caret-down"></i></li>
+                        <li>$ARG<i class="fa-solid fa-caret-down"></i></li>
                     </ul>
-                </li>
-            </ul>
-        </nav>
+                </div>
+            </div>
+        </section>
+        <section class="header-container-bottom">
+            <div class="container-bottom">
+                <nav>
+                    <div class="logo-container">
+                        <a href="#">
+                            <span class="logo-base">
+                                <img src="img/Cat.png" alt="gato" />
+                                <span class="logo-first">Front</span>
+                                Cat&Dog
+                                <img src="img/Dog.png" alt="perro" />
+                            </span>
+                        </a>
+                    </div>
+                    <div class="links-menu-container">
+                        <ul class="nav-links header-list">
+                            <li>
+                                <a href=""><img src="img/pawprint 1.png" alt="">Categorías</a>
+                            </li>
+                            <li>
+                                <a href=""><img src="img/pawprint 1.png" alt="">Pets</a>
+                            </li>
+                            <li>
+                                <a href=""><img src="img/pawprint 1.png" alt="">Nosotros</a>
+                            </li>
+                            <li>
+                                <a href=""><img src="img/pawprint 1.png" alt="">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
     </header>
     <main>
         <section>
-            <img src="img/Slide.png" alt="slide">
-            <div><h3>¡Es un placer tenerte aquí!</h3></div>
-            <h3>¡Comederos en descuento!</h3>
-            <button>COMEDEROS</button>
+            <div class="slide">
+                <a href="#"><img src="img/Slide.png" alt="slide"></a>
+                <div class="msj-slide">
+                    <h3>¡Es un placer tenerte aquí!</h3>
+                    <h3>¡Comederos en descuento!</h3>
+                    <button>COMEDEROS</button>
+                </div>
+            </div>
         </section>
-        <section>
-            <div>
-                <div><img src="img/pawprint 1.png" alt="patita de mascota"></div>
+        <section class="highlighted-products-container">
+            <div class="highlighted-products-msj">
+                <div><img src="img/pawprint 2.png" alt="patita de mascota"></div>
                 <div>Productos Destacados</div>
                 <div>
                     <a href="">Comederos</a>-
@@ -58,8 +79,8 @@
                     <a href="">Comida</a>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="highlighted-products-box">
+                <div class="product-box">
                     <a href="">
                         <div><img src="img/churrasquito.png" alt="Juguete Churrasquito"></div>
                         <div>
@@ -68,7 +89,7 @@
                         </div>
                     </a>
                 </div>
-                <div>
+                <div class="product-box">
                     <a href="">
                         <div><img src="img/Comedero.png" alt="Comedero para perro"></div>
                         <div>
@@ -77,7 +98,7 @@
                         </div>
                     </a>
                 </div>
-                <div>
+                <div class="product-box">
                     <a href="">
                         <div><img src="img/Huesito juguete.png" alt="Juguete Huesito"></div>
                         <div>
