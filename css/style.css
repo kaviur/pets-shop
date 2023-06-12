@@ -204,8 +204,16 @@ a{
 
 /*+++++++++FOOTER++++++++++++++*/
 
-@media only screen and (max-width: 1200px){
-  /*Tablets [601px -> 1200px]*/
+@media only screen and (max-width: 987px){
+  /*custom*/
+  .highlighted-products-box{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .product-box{
+    width: auto;
+  }
 }
 @media only screen and (max-width: 604px){
   /*Big smartphones [426px -> 600px]*/
@@ -225,10 +233,6 @@ a{
   .highlighted-products-box{
     flex-direction: column;
     align-items: center;
-  }
-
-  .product-box {
-    width: auto;
   }
 
   .msj-slide {
